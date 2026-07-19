@@ -67,9 +67,9 @@ The project follows an iterative approach, where each notebook focuses on improv
 
 | Notebook                       | Description | Training Accuracy | Testing Accuracy |
 |--------------------------------|-------------|------------------:|-----------------:|
-| **01 - Baseline Model**        | Initial Random Forest using all selected features | **100.00%** | **50.00%** |
-| **02 - Model Improvement**     | Feature selection and improved preprocessing | **100.00%** | **80.60%** |
-| **02 - Hyperparameter Tuning** | Optimized Random Forest | **—** | **—** |
+| **01 - Baseline Model**        | Initial Random Forest using all selected features | **100.00%** |       **50.00%** |
+| **02 - Model Improvement**     | Feature selection and improved preprocessing | **100.00%** |       **80.60%** |
+| **02 - Hyperparameter Tuning** | Optimized Random Forest | **—** |       **78.88%** |
 
 The second notebook demonstrates that improving the preprocessing pipeline and reducing the feature space significantly improved the model's ability to generalize, increasing the testing accuracy from **50.00%** to **80.60%**.
 
